@@ -5,7 +5,7 @@ let down = 1;
 
 let dots = [];
 
-let cnv, im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11ß;
+let cnv, im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11;
 
 function preload() {
   im1 = createImg("assets/season.jpg","happy holidays");
@@ -13,7 +13,7 @@ function preload() {
   im3 = createImg("assets/ben1.jpg","ben's headshot");
   im4 = createImg("assets/leen1.jpg","colleen's face at home");
   im5 = createImg("assets/SLKM.jpg","us doing our thing");
-  im6 = creatImg("assets/cats.jpg", "the cats!");
+  im6 = createImg("assets/cats.jpg", "the cats!");
   im7 = createImg("assets/benart1.png","things that ben does");
   im8 = createImg("assets/benart2.png","things ben has done");
   im9 = createImg("assets/benart3.png","things that ben does");
@@ -26,6 +26,10 @@ function setup() {
   cnv = createCanvas(windowWidth, 200);
   cnv.parent('sketch-holder');
   noStroke();
+  im1.parent("img1");
+  im2.parent("img2");
+  im3.parent("img3");
+  im4.parent("img3");
 
   // Initialize the snowflakes with random positions
   for (let i = 0; i < numb; i++) {
