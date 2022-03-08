@@ -16,8 +16,8 @@ function preload() {
   im6 = createImg("assets/cats.jpg", "the cats!");
   im7 = createImg("assets/benart1.png","things that ben does");
   im8 = createImg("assets/benart2.png","things ben has done");
-  im9 = createImg("assets/benart3.png","things that ben does");
-  im10 = createImg("assets/benart4.png","things that ben does");
+  im9 = createImg("assets/benart3.jpg","things that ben does");
+  im10 = createImg("assets/benwork1.jpg","things that ben does");
   im11 = createImg("assets/leencat1.jpg","leen and the rocket");
 }
 
@@ -30,6 +30,14 @@ function setup() {
   im2.parent("img2");
   im3.parent("img3");
   im4.parent("img3");
+  im5.parent("img4");
+  im6.parent("img5");
+  im7.parent("img6");
+  im8.parent("img6");
+  im9.parent("img6");
+  im10.parent("img6");
+  im11.parent("img7");
+  //im1.size(300,300);
 
   // Initialize the snowflakes with random positions
   for (let i = 0; i < numb; i++) {

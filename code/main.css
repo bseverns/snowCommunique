@@ -35,19 +35,49 @@ img {
 
 p {
   display: flex;
-  font-size:24px;
-  font-style: normal;
   justify-content: center;
 }
 
-.first {
-background: content-box radial-gradient(crimson, skyblue);
+p.1La {
+  font-size: 40px;
+  z-index: 1;
+
+}
+
+p.1Lb {
+  font-size:24px;
+  z-index: 1;
+
+}
+
+p.2L {
+  font-size:24px;
+  z-index: 1;
+
+}
+
+p.3L{
+  font-size:24px;
+  z-index: 1;
+
+}
+
+p.4L {
+  font-size:24px;
+  z-index: 1;
+
+}
+
+p.5L{
+  font-size:24px;
+  z-index: 1;
+
 }
 
 #img1 {
   align-content: center;
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: center;
   margin: 0;
   width: 500px;
@@ -69,9 +99,20 @@ flex-direction: row;
 height: 500px;
 }
 
-.next{
-background-color: grey;
-z-index: 1;
+#img4{
+
+}
+
+#img5{
+
+}
+
+#img6{
+
+}
+
+#img7{
+
 }
 
 #sketch-holder {
@@ -82,7 +123,7 @@ z-index: 1;
   padding: 0;
 }
 
-.letter {
+p.letter {
   background-color: white;
   margin: 5px;
 }
