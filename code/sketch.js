@@ -5,7 +5,9 @@ let down = 1;
 
 let dots = [];
 
-let cnv, im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11;
+let cnv;
+let im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11, im12, im13, im14, im15;
+let hello;
 
 function preload() {
   im1 = createImg("assets/season.jpg","happy holidays");
@@ -17,27 +19,40 @@ function preload() {
   im7 = createImg("assets/benart1.png","things that ben does");
   im8 = createImg("assets/benart2.png","things ben has done");
   im9 = createImg("assets/benart3.jpg","things that ben does");
+  im12 = createImg("assets/benart4.jpg","and again, things he does!");
   im10 = createImg("assets/benwork1.jpg","things that ben does");
   im11 = createImg("assets/leencat1.jpg","leen and the rocket");
+  im13 = createImg("assets/houseday.jpg","our house in the middle of the street");
+  im14 = createImg("assets/houserebuild1.jpg","building the place back");
+  im15 = createImg("assets/bridge.jpg","a bridge during the mississippi draw-down between locks");
+  im16 = createImg("assets/leenout.jpg", "Colleen walking through the Quaking Bog in the park");
+  hello = createP("Hello Family!");//an attempt at a title for the page
 }
 
 // Will run once when the sketch is opened
 function setup() {
-  cnv = createCanvas(windowWidth, 200);
+  cnv = createCanvas(windowWidth, 200);//for the visuals
   cnv.parent('sketch-holder');
-  noStroke();
   im1.parent("img1");
   im2.parent("img2");
   im3.parent("img3");
   im4.parent("img3");
-  im5.parent("img4");
+  im5.parent("wedding");
   im6.parent("img5");
   im7.parent("img6");
   im8.parent("img6");
   im9.parent("img6");
   im10.parent("img6");
   im11.parent("img7");
+  im12.parent("img6");
+  im13.parent("img8");
+  im14.parent("img8");
+  im15.parent("img8");
+  im16.parent("img7");
+  hello.parent("hello");
   //im1.size(300,300);
+
+  noStroke();
 
   // Initialize the snowflakes with random positions
   for (let i = 0; i < numb; i++) {
