@@ -50,10 +50,8 @@ function setup() {
   im15.parent("img8");
   im16.parent("img7");
   hello.parent("hello");
-  //im1.size(300,300);
 
   noStroke();
-
   // Initialize the snowflakes with random positions
   for (let i = 0; i < numb; i++) {
     dots.push({
@@ -70,9 +68,7 @@ function draw() {
   // Iterate through each snowflake to draw and update them
   for (let i = 0; i < dots.length; i++) {
     const snowflake = dots[i];
-
     circle(snowflake.x, snowflake.y, big);
-
     if (snowflake.y > height + big) snowflake.y = -big;
     else snowflake.y += down;
   }

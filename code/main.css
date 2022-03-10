@@ -17,7 +17,7 @@ body {
 }
 
 img {
-  border-style: ridge;
+  border-style: groove;
   box-shadow: 2px 2px 5px;
   display: flex;
   flex-grow: 1;
@@ -27,11 +27,27 @@ img {
 }
 
 p {
+font-family: sans-serif;
   display: flex;
   justify-content: center;
 }
 
+#main {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 5px;
+  width: 100%;
+  z-index: -10;
+}
+
 #p1La {
+  border-style: groove;
+  box-shadow: 2px 2px 5px;
   font-size: 40px;
   margin-top: 5px;
   padding:5px;
@@ -77,6 +93,8 @@ p {
 
 #hello {
   align-content: space-around;
+  border-style: groove;
+  box-shadow: 2px 2px 5px;
   background-color: white;
   display: flex;
   font-size: 50px;
