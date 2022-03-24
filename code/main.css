@@ -27,9 +27,13 @@ img {
 }
 
 p {
-font-family: sans-serif;
+  border:10px;
+  border-style: green;
+  background-color: white;
   display: flex;
+  font-family: sans-serif;
   justify-content: center;
+  margin: 5px;
 }
 
 #main {
@@ -152,9 +156,4 @@ font-family: sans-serif;
   display: flex;
   padding: 0;
   width: 100%;
-}
-
-p.letter {
-  background-color: white;
-  margin: 5px;
 }
