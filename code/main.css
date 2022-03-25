@@ -140,11 +140,23 @@ p {
   height:500px;
 }
 
-#img5 {}
+#img5 {
+  alight-content: center;
+  flex-direction: row;
+  widht: 700px;
+}
 
-#img6 {}
+#img6 {
+  alight-content: center;
+  flex-direction: row;
+  widht: 700px;
+}
 
-#img7 {}
+#img7 {
+  alight-content: center;
+  flex-direction: row;
+  widht: 700px;
+}
 
 #img8 {
   alight-content: center;
