@@ -7,8 +7,12 @@ let dots = [];
 
 let cnv;
 let im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11, im12, im13, im14, im15;
+<<<<<<< Updated upstream
 let hello, first, second, third, fourth, fifth, sixth, seventh;
 let again;
+=======
+let hello, p1;
+>>>>>>> Stashed changes
 
 function preload() {
   //images
@@ -30,6 +34,7 @@ function preload() {
   im16 = createImg("assets/leenout.jpg", "Colleen walking through the Quaking Bog in the park");
   //copy
   hello = createP("Hello Family!");//an attempt at a title for the page
+<<<<<<< Updated upstream
   first = createP("It feels simultaneously yesterday and decades ago that we last saw each of you.");
   second = createP("The following is a recap of the past few years - some jokes will be thrown in as well for good measure.");
   third = createP("Things about work/relationship/life/house here");
@@ -38,6 +43,9 @@ function preload() {
   sixth = createP("Copy re Leen work here!");
   seventh = createP("Things about our house");
   again = createP("Some example text");
+=======
+  p1 = createP("It feels simultaneously yesterday and decades ago that we last saw each of you.");
+>>>>>>> Stashed changes
 }
 
 // Will run once when the sketch is opened
@@ -61,6 +69,7 @@ function setup() {
   im15.parent("img8");
   im16.parent("img7");
   hello.parent("hello");
+<<<<<<< Updated upstream
   first.parent("p1La");
   second.parent("p1Lb");
   third.parent("p2L");
@@ -68,6 +77,9 @@ function setup() {
   fifth.parent("p4L");
   sixth.parent("p5L");
   seventh.parent("p6L");
+=======
+  p1.parent("p1La");
+>>>>>>> Stashed changes
 
   noStroke();
   // Initialize the snowflakes with random positions
